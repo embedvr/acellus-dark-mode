@@ -95,11 +95,13 @@
     #_A6:after {
         font-weight: 1000;
         font-size: 25px;
+        color: #1b1b1b;
         content: '\a hover if issues with theme';
         white-space: pre;
     }
     #_A6:hover:after {
         font-size: 20px;
+        color: #1b1b1b;
         content: "\a due to acellus inconsistencies, i am unable to \a style everything correctly. certain things \a (like highlighted text) can have problems \a that are out of my control. if there is a problem \a disable the theme temporarily.";
         white-space: pre;
     }
