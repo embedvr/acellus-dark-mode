@@ -106,6 +106,7 @@
         display: inline-block;
         font-size: 30px;
         width: 100%!important;
+        overflow:  visible;
         margin: 10px;
     }
     .flex.grow.w-5.grid.grid-flow-row-dense.grid-cols-1.grid-rows-1 {
