@@ -1,0 +1,235 @@
+/* ==UserStyle==
+@name           Acellus Dark Theme
+@namespace      astolfo.co
+@version        1.0.0
+@description    make acellus bearable. 
+@author         embed
+==/UserStyle== */
+
+@-moz-document domain("acellus.com") {
+    /* written by embed, https://astolfo.co */
+    .background-book {
+        background: none;
+    }
+    .body {
+        background: none;
+        background-color: #252525;
+    }
+    html, body, container {
+        background: #252525
+    }
+    .Object7218 > div {
+        background: #252525!important;
+    }
+    .Object7218 > table, .Object7038, .Object7054 > img, #student_footer > div > table > tbody > tr > td > span {
+        display: none;
+    }
+    .Object7053 > div {
+        border-top-left-radius: 10px!important;
+        border-bottom-left-radius: 10px!important;
+    }
+    .Object7042 > div {
+        border-top-right-radius: 10px!important;
+        border-bottom-right-radius: 10px!important;
+    }
+    .main_page_background { 
+        background: #252525!important
+    }
+    .select_class_table > tbody > tr > td {
+        background: #1b1b1b!important;
+    }
+    .select_class_table > tbody > tr> td > span {
+        color: #fff !important;
+    }
+    .ObjectBanner > img {
+        filter: grayscale(100%)
+    }
+    .ObjectLogo > img {
+        filter: grayscale(100%)
+    }
+    .Object7219 > div:nth-of-type(3), .Object7074 > div:nth-of-type(3), .Object6939 > div:nth-of-type(3) {
+        display: flex;
+        width: 100%;
+        justify-content: space-around!important;
+    }
+    td > span {
+        color: #fff!important
+    }
+    .Object7068 > div, .Object7069 > div, .Object7072 > span, .Object7062 > div, .Object7063 > div, .Object7064 > div, .Object7065 > div, .Object7066 > div, .Object7047 > div, .Object7071 > div, .Object7048 > span, .Object7070 > div, #content_form > div > span {
+        color: #fff !important;
+    }
+    .Object7046 > table {
+        border: none!important;
+        border-bottom: solid 3px #fff!important;
+        border-radius: 4px
+    }
+    * {
+        color: #fff;
+    }
+    h3 {
+        color: #fff;
+    }
+    h5 {
+        color: #fff;
+    }
+    sup {
+        color: #FFFF00;
+    }
+    h4 {
+        color: #fff;
+    }
+    h6 {
+        color: #515f6e;
+    }
+    .w-14.md\:w-24.lg\:w-32.-mb-6.md\:-mb-24 {
+        display: none;
+    }
+    img[alt="home"] {
+        display: inherit;
+    }
+    .top-navbar {
+        width: 100%;
+        display: flex!important;
+        justify-content: space-between!important;
+    }
+    #_A6:after {
+        font-weight: 1000;
+        font-size: 25px;
+        content: '\a hover if issues with theme';
+        white-space: pre;
+    }
+    #_A6:hover:after {
+        font-size: 20px;
+        content: "\a due to acellus inconsistencies, i am unable to \a style everything correctly. certain things \a (like highlighted text) can have problems \a that are out of my control. if there is a problem \a disable the theme temporarily.";
+        white-space: pre;
+    }
+    .flex.gap-2.justify-start.grow{
+        width: 50%!important;
+        display: flex!important;
+    }
+    #student_door {
+        width: 50%!important;
+        display: flex!important;
+        justify-content: end!important;
+        margin: 5px;
+    }
+    .truncate.text-white.text-sm.md\:text-lg.md\:leading-6.font-bold {
+        display: inline-block;
+        font-size: 30px;
+        width: 100%!important;
+        margin: 10px;
+    }
+    .flex.grow.w-5.grid.grid-flow-row-dense.grid-cols-1.grid-rows-1 {
+        display:inline-block;
+        width: 100%!important;
+    }
+    .counter > span {
+        background: #1b1b1b
+    }
+    .counter > span > span {
+        color: #fff;
+    }
+    .counter > span.counter_decor.counter_bottom {
+        box-shadow: none;
+    }
+    .text-answer {
+        background: #1b1b1b;
+    }
+    p > span {
+        color: #fff !important;
+    }
+    p > span > span > span {
+        color: #000;
+    }
+    #newMessTitle {
+        color: #000
+    }
+    #newMessDesc {
+        color: #000;
+    }
+    #bottom-navbar {
+        display: none;
+    }
+    .plyr__control > span {
+        color: #000;
+    }
+    .plyr__menu__value {
+        color: #000;
+    }
+    .Object7060 > img {
+        display: none;
+    }
+    #coursebar {
+        border-radius: 25px!important;
+        background: #1b1b1b!important;
+    }
+    #coursebar > div {
+        background: #fff
+    }
+    .Object7077 {
+        width: 387px!important;
+        height: 36px!important;
+        text-align: center!important;
+        top: 340px!important;
+        left: 296px!important;
+        padding: 5px
+    }
+    .Object7077 > span {
+        margin-top: 10px!important;
+        color: #fff
+    }
+    .Object7043 > img, .Object7044, .Object7040, .Object7039, .Object7041, .Object7045, .Object7073, .page_header {
+        display: none;
+    }
+    .Object7043 {
+        background: #1b1b1b;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 387px;
+        height: 36px;
+    }
+    .Object7075 > div > div > table {
+        background: #1b1b1b!important;
+        border: none!important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 5px;
+    }
+    .todaywork {
+        background: none!important;
+        color: #fff;
+        border: none
+    }
+    
+    /*
+    .easy_sign_in_container {
+        margin-top: 85px;
+    }
+    .easy_sign_in_container > table > tbody > tr {
+        background: #1b1b1b!important;
+    }
+    .easy_sign_in_container > table > tbody > tr > td {
+        border: none!important;
+    }
+    .easy_sign_in {
+        font-weight: 1000;
+        color: #ffff00!important;
+    }
+    */
+    .easy_sign_in_container {
+        display: none;
+    }
+    #content_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center !important;
+    }
+    .form_box {
+        background: #1b1b1b;
+        border: none;
+        margin-top: 43px;
+        padding-bottom: 10px;
+        width: 572px;
+    }
+}
